@@ -53,8 +53,9 @@ p {
 }
 
 .contact-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 .about-link {
@@ -89,12 +90,12 @@ p {
   text-decoration: underline;
 }
 
-.portfolio-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.blog-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
