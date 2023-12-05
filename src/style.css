@@ -138,3 +138,8 @@ p {
 .mb-5 {
   margin-bottom: 3rem !important;
 }
+
+.socials {
+  text-align: center;
+  margin: 0;
+}
