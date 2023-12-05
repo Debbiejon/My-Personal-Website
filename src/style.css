@@ -134,3 +134,7 @@ p {
     margin: 0 20px;
   }
 }
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
